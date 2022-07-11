@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pandas = "*"
 fire = "*"
+ipython = "*"
+tabulate = "*"
 
 [dev-packages]
 pytest = "*"

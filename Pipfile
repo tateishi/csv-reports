@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+fire = "*"
+
+[dev-packages]
+pytest = "*"
+tox = "*"
+
+[scripts]
+build = "python setup.py sdist"
+bdist = "python setup.py bdist_wheel"
+install = "pip install -e ."
+test = "pytest"
+lint = "tox -e lint"

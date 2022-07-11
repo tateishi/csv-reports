@@ -1,0 +1,12 @@
+-rw-r--r-- 1 ubuntu ubuntu 11220 Jul 11 23:15 Pipfile.lock
+-rw-rw-r-- 1 ubuntu ubuntu     0 Jul 11 23:30 test.csv
+-rw-rw-r-- 1 ubuntu ubuntu    39 Jul 11 22:38 setup.py
+-rw-rw-r-- 1 ubuntu ubuntu    50 Jul 11 23:19 entry_points.cfg
+-rw-rw-r-- 1 ubuntu ubuntu   280 Jul 11 22:38 setup.cfg
+-rw-rw-r-- 1 ubuntu ubuntu   297 Jul 11 23:16 Pipfile
+-rw-rw-r-- 1 ubuntu ubuntu   441 Jul 11 22:38 tox.ini
+-rw-rw-r-- 1 ubuntu ubuntu  1077 Jul 11 22:38 LICENSE
+drwxrwxr-x 1 ubuntu ubuntu    36 Jul 11 23:16 tests
+drwxrwxr-x 1 ubuntu ubuntu    52 Jul 11 23:19 dist
+drwxrwxr-x 1 ubuntu ubuntu    58 Jul 11 23:16 src
+total 36

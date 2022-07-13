@@ -8,6 +8,7 @@ pandas = "*"
 fire = "*"
 ipython = "*"
 tabulate = "*"
+prompt-toolkit = "*"
 
 [dev-packages]
 pytest = "*"

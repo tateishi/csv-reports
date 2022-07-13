@@ -17,7 +17,9 @@ def exec_fire():
     Fire(exec_main)
 
 
-def kakei_main(file: str = "~/wks/data/csv/main_kakei.csv", account: str = "資産:現金:家計財布") -> None:
+def kakei_main(
+    file: str = "~/wks/data/csv/main_kakei.csv", account: str = "資産:現金:家計財布"
+) -> None:
     df = pd.read_csv(file)
     df = df[df["account"] == account]
     df["amount"] = df["amount"].astype(int)
@@ -32,7 +34,10 @@ def kakei_main(file: str = "~/wks/data/csv/main_kakei.csv", account: str = "資�
 def kakei_fire():
     Fire(kakei_main)
 
-def tadatoshi_main(file: str = "~/wks/data/csv/main_tadatoshi.csv", account: str = "資産:現金:財布") -> None:
+
+def tadatoshi_main(
+    file: str = "~/wks/data/csv/main_tadatoshi.csv", account: str = "資産:現金:財布"
+) -> None:
     df = pd.read_csv(file)
     df = df[df["account"] == account]
     df["amount"] = df["amount"].astype(int)
